@@ -1,15 +1,11 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { WhatsappIcon } from './Icons';
-
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
     window.open('https://wa.me/972528348478?text=היי%20דרור%20אשמח%20להתייעץ', '_blank');
   };
-
-  return (
-    <section className="relative min-h-[90vh] flex flex-col items-center justify-center text-center px-4 pt-20 pb-16 overflow-hidden">
+  return <section className="relative min-h-[90vh] flex flex-col items-center justify-center text-center px-4 pt-20 pb-16 overflow-hidden py-0 bg-lime-500">
       <div className="absolute inset-0 bg-gradient-to-b from-honey-50/90 to-honey-100/80 -z-10 rounded-3xl mx-4 my-6"></div>
       
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-honey-800 mb-6 max-w-4xl mx-auto leading-tight">
@@ -27,18 +23,13 @@ const HeroSection = () => {
       </p>
       
       <div className="w-full max-w-xs sm:max-w-md">
-        <Button 
-          onClick={handleWhatsAppClick}
-          className="w-full bg-honey-500 hover:bg-honey-600 text-white p-6 rounded-full text-lg shadow-lg transition-all hover:shadow-xl hover:-translate-y-1"
-        >
+        <Button onClick={handleWhatsAppClick} className="w-full bg-honey-500 hover:bg-honey-600 text-white p-6 rounded-full text-lg shadow-lg transition-all hover:shadow-xl hover:-translate-y-1">
           <WhatsappIcon className="w-6 h-6 ml-2" />
           לשיחת ייעוץ בוואטסאפ
         </Button>
       </div>
 
       <div className="absolute -bottom-16 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent"></div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
