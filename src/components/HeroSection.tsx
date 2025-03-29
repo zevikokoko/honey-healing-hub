@@ -5,12 +5,12 @@ import { WhatsappIcon } from './Icons';
 
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/972528348478?text=אשמח%20לקבל%20את%20קטלוג%20המוצרים', '_blank');
+    window.open('https://wa.me/972528348478?text=היי%20דרור%20אשמח%20להתייעץ', '_blank');
   };
 
   return (
-    <section className="relative min-h-[90vh] flex flex-col items-center justify-center text-center px-4 pt-20 pb-16 overflow-hidden honeycomb-bg">
-      <div className="absolute inset-0 bg-gradient-to-b from-honey-50/90 to-honey-100/80 -z-10"></div>
+    <section className="relative min-h-[90vh] flex flex-col items-center justify-center text-center px-4 pt-20 pb-16 overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-honey-50/90 to-honey-100/80 -z-10 rounded-3xl mx-4 my-6"></div>
       
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-honey-800 mb-6 max-w-4xl mx-auto leading-tight">
         ריפוי מהכוורת – מוצרים טבעיים וטיפול עוצמתי

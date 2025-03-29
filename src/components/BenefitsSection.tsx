@@ -4,14 +4,14 @@ import { BeeIcon } from './Icons';
 
 const ForWhomSection = () => {
   return (
-    <section className="py-16 px-4 bg-honey-100">
+    <section className="py-16 px-4 bg-gradient-to-b from-white to-honey-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">🐝 למי זה מתאים?</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          <div className="bg-white rounded-lg p-6 shadow-md flex items-start gap-4">
+          <div className="bg-white rounded-3xl p-6 shadow-md flex items-start gap-4">
             <div className="bg-honey-300 rounded-full p-2 mt-1 shrink-0">
               <BeeIcon className="w-5 h-5 text-honey-800" />
             </div>
@@ -21,7 +21,7 @@ const ForWhomSection = () => {
             </div>
           </div>
           
-          <div className="bg-white rounded-lg p-6 shadow-md flex items-start gap-4">
+          <div className="bg-white rounded-3xl p-6 shadow-md flex items-start gap-4">
             <div className="bg-honey-300 rounded-full p-2 mt-1 shrink-0">
               <BeeIcon className="w-5 h-5 text-honey-800" />
             </div>
@@ -31,7 +31,7 @@ const ForWhomSection = () => {
             </div>
           </div>
           
-          <div className="bg-white rounded-lg p-6 shadow-md flex items-start gap-4">
+          <div className="bg-white rounded-3xl p-6 shadow-md flex items-start gap-4">
             <div className="bg-honey-300 rounded-full p-2 mt-1 shrink-0">
               <BeeIcon className="w-5 h-5 text-honey-800" />
             </div>
@@ -41,7 +41,7 @@ const ForWhomSection = () => {
             </div>
           </div>
           
-          <div className="bg-white rounded-lg p-6 shadow-md flex items-start gap-4">
+          <div className="bg-white rounded-3xl p-6 shadow-md flex items-start gap-4">
             <div className="bg-honey-300 rounded-full p-2 mt-1 shrink-0">
               <BeeIcon className="w-5 h-5 text-honey-800" />
             </div>
@@ -52,7 +52,7 @@ const ForWhomSection = () => {
           </div>
         </div>
         
-        <div className="mt-12 bg-white rounded-lg p-8 shadow-lg max-w-3xl mx-auto">
+        <div className="mt-12 bg-white rounded-3xl p-8 shadow-lg max-w-3xl mx-auto">
           <h3 className="text-2xl font-bold mb-4 text-center text-honey-800">בואו להרגיש את הכוח של הדבורה</h3>
           <p className="text-lg text-center">
             <span className="font-bold">מה זו אפיתרפיה?</span>

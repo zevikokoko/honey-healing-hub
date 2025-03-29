@@ -36,10 +36,17 @@ const ProductsSection = () => {
   };
 
   return (
-    <section id="products" className="py-16 px-4">
+    <section id="products" className="py-16 px-4 relative">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">🌿 מוצרים 100% טבעיים</h2>
+        <div className="flex flex-col items-center mb-12 relative">
+          <div className="absolute top-0 right-1/2 transform translate-x-1/2 -translate-y-1/2">
+            <img 
+              src="/lovable-uploads/a4a581c5-3764-4284-bb2f-b11bd0db62e3.png" 
+              alt="Cute Bee" 
+              className="w-32 h-32 object-contain"
+            />
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 mt-12">🌿 מוצרים 100% טבעיים</h2>
           <p className="text-lg text-honey-700 max-w-2xl mx-auto">
             מיוצרים בעבודת יד, באהבה, ישירות מהכוורת שלי – אליך.
           </p>
@@ -49,9 +56,9 @@ const ProductsSection = () => {
           {products.map((product, index) => (
             <div 
               key={index} 
-              className="bg-honey-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border border-honey-200 relative overflow-hidden"
+              className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-honey-200 relative overflow-hidden"
             >
-              <div className="absolute top-0 right-0 bg-honey-300 text-honey-800 p-2 rounded-bl-lg">
+              <div className="absolute top-0 right-0 bg-honey-300 text-honey-800 p-2 rounded-bl-2xl">
                 <HoneycombIcon className="w-5 h-5" />
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4 text-honey-700">{product.name}</h3>

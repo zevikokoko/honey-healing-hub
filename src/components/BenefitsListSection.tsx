@@ -12,13 +12,13 @@ const benefits = [
 
 const BenefitsListSection = () => {
   return (
-    <section className="py-16 px-4 bg-honey-50">
+    <section className="py-16 px-4 bg-gradient-to-b from-honey-50 to-honey-100/50">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">✅ התועלות העיקריות</h2>
         </div>
 
-        <div className="bg-white rounded-lg p-8 shadow-md">
+        <div className="bg-white rounded-3xl p-8 shadow-md">
           <ul className="space-y-4">
             {benefits.map((benefit, index) => (
               <li key={index} className="flex items-center gap-3">
